@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(brew update *)",
+      "Read(//Users/allisonandreyev_unrestricted/**)",
+      "Bash(echo '\\\\n# rbenv\\\\nexport PATH=\"$HOME/.rbenv/bin:$PATH\"\\\\neval \"$\\(rbenv init - zsh\\)\"')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/al-folio/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/index.html)",
+      "Bash(curl -v http://localhost:4000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/)",
+      "Bash(rm /Users/allisonandreyev_unrestricted/Desktop/personal-website/_projects/*.md && echo \"cleared\")",
+      "Bash(rm /Users/allisonandreyev_unrestricted/Desktop/personal-website/assets/jupyter/blog.ipynb && echo \"done\")",
+      "Bash(kill 56764 57016)",
+      "Bash(grep -iE '\\\\.\\(jpg|jpeg|png|gif|mp4|webm|mov|svg|webp\\)$')",
+      "Bash(ruby --version)",
+      "Bash(bundle --version)",
+      "Bash(rbenv version *)",
+      "Bash(rvm current *)"
+    ],
+    "additionalDirectories": [
+      "/Users/allisonandreyev_unrestricted/Desktop/personal-website/_projects",
+      "/Users/allisonandreyev_unrestricted/Desktop/personal-website/assets/jupyter"
+    ]
+  }
+}

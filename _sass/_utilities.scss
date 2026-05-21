@@ -4,6 +4,11 @@
 
 @use "variables" as v;
 
+::selection {
+  background: #d0d0d0;
+  color: inherit;
+}
+
 // Code and syntax highlighting
 
 figure.highlight {

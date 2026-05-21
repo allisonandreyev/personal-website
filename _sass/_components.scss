@@ -50,6 +50,10 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+
+    .card-text {
+      margin-bottom: 0.25rem;
+    }
   }
 }
 
@@ -120,6 +124,182 @@ ul.task-list input[type="checkbox"] {
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
+}
+
+// Center figures in page content
+
+article figure {
+  text-align: center;
+}
+
+// Project link buttons (color-coded by link type)
+
+.project-link-btn {
+  display: inline-block;
+  border: 1.5px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.22rem 0.7rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none !important;
+  transition: background-color 0.18s ease, color 0.18s ease;
+
+  &.link-github {
+    color: #24292e;
+    border-color: #24292e;
+    &:hover { background-color: #24292e; color: #fff; }
+  }
+
+  &.link-website {
+    color: #0076df;
+    border-color: #0076df;
+    &:hover { background-color: #0076df; color: #fff; }
+  }
+
+  &.link-huggingface {
+    color: #c77700;
+    border-color: #ff9d00;
+    &:hover { background-color: #ff9d00; color: #fff; }
+  }
+
+  &.link-blog {
+    color: #00874a;
+    border-color: #00ab37;
+    &:hover { background-color: #00ab37; color: #fff; }
+  }
+
+  &.link-news {
+    color: #c0392b;
+    border-color: #e74c3c;
+    &:hover { background-color: #e74c3c; color: #fff; }
+  }
+
+  &.link-printables {
+    color: #d05518;
+    border-color: #fa6831;
+    &:hover { background-color: #fa6831; color: #fff; }
+  }
+
+  &.link-org {
+    color: #1a7a9a;
+    border-color: #2698ba;
+    &:hover { background-color: #2698ba; color: #fff; }
+  }
+
+  &.link-video {
+    color: #6d28d9;
+    border-color: #7c3aed;
+    &:hover { background-color: #7c3aed; color: #fff; }
+  }
+}
+
+// Tag filter bar
+
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.75rem;
+}
+
+.tag-filter-btn {
+  display: inline-block;
+  border: 1.5px solid var(--global-theme-color);
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease;
+
+  &:hover,
+  &.active {
+    background-color: var(--global-theme-color);
+    color: #fff;
+  }
+}
+
+// Project type tag chips
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background-color: transparent;
+  border: 1.5px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+html[data-theme="dark"] {
+  .project-link-btn {
+    &.link-github {
+      color: #c9d1d9;
+      border-color: #c9d1d9;
+      &:hover { background-color: #c9d1d9; color: #24292e; }
+    }
+
+    &.link-website {
+      color: #58a6ff;
+      border-color: #58a6ff;
+      &:hover { background-color: #58a6ff; color: #0d1117; }
+    }
+
+    &.link-huggingface {
+      color: #ffb733;
+      border-color: #ffb733;
+      &:hover { background-color: #ffb733; color: #1c1c1d; }
+    }
+
+    &.link-blog {
+      color: #3fb950;
+      border-color: #3fb950;
+      &:hover { background-color: #3fb950; color: #0d1117; }
+    }
+
+    &.link-news {
+      color: #f87171;
+      border-color: #f87171;
+      &:hover { background-color: #f87171; color: #1c1c1d; }
+    }
+
+    &.link-printables {
+      color: #fb8c5a;
+      border-color: #fb8c5a;
+      &:hover { background-color: #fb8c5a; color: #1c1c1d; }
+    }
+
+    &.link-org {
+      color: #56c5e8;
+      border-color: #56c5e8;
+      &:hover { background-color: #56c5e8; color: #1c1c1d; }
+    }
+
+    &.link-video {
+      color: #a78bfa;
+      border-color: #a78bfa;
+      &:hover { background-color: #a78bfa; color: #1c1c1d; }
+    }
+  }
+
 }
 
 // Projects

@@ -77,6 +77,11 @@
 html[data-theme="dark"] {
   color-scheme: dark;
   --global-bg-color: #{v.$grey-color-dark};
+
+  strong,
+  b {
+    color: #aaaaaa;
+  }
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};

@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - allisonandreyev
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - allisonandreyev/signscribe
+  - allisonandreyev/cmsc477
+  - allisonandreyev/whisperquantization
+  - allisonandreyev/arxaiv
+  - allisonandreyev/ideator
+  - allisonandreyev/grasp
+  - ducmngx/failbench
+  - willchan9/aixr_healthcare
+  - willchan9/ar_perception

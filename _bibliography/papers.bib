@@ -1,115 +1,73 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{chen2025neurosymbolic,
+  title={A Neuro-symbolic Framework for Interpretable Cognitive Attack Detection in Augmented Reality},
+  author={Chen, Rongqian and Andreyev, Allison and Xiu, Yanming and Chilukuri, Joshua and Sen, Shunav and Imani, Mahdi and Li, Bin and Gorlatova, Maria and Tan, Gang and Lan, Tian},
+  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition Findings (CVPRF)},
+  year={2026},
+  preview ={cadar.png},
+  arxiv={2508.09185},
+  code={https://github.com/WillChan9/AR_Perception},
+  selected={true},
+  abstract={Augmented Reality (AR) enriches human perception by overlaying virtual elements onto the physical world. However, this tight coupling between virtual and real content makes AR vulnerable to cognitive attacks: manipulations that distort users' semantic understanding of the environment. Existing detection methods largely focus on visual inconsistencies at the pixel or image level, offering limited semantic reasoning or interpretability. To address these limitations, we introduce CADAR, a neuro-symbolic framework for cognitive attack detection in AR that integrates neural and symbolic reasoning. CADAR fuses multimodal vision-language representations from pre-trained models into a perception graph that captures objects, relations, and temporal contextual salience. Building on this structure, a particle-filter-based statistical reasoning module infers anomalies in semantic dynamics to reveal cognitive attacks. This combination provides both the adaptability of modern vision-language models and the interpretability of probabilistic symbolic reasoning. Preliminary experiments on an AR cognitive-attack dataset demonstrate consistent advantages over existing approaches, highlighting the potential of neuro-symbolic methods for robust and interpretable AR security.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@article{andreyev2025quantization,
+  title={Quantization for OpenAI's Whisper Models: A Comparative Analysis},
+  author={Andreyev, Allison},
+  journal={arXiv preprint arXiv:2503.09905},
+  preview={whisper.png},
+  arxiv={2503.09905},
+  year={2025},
+  code={https://github.com/allisonandreyev/WhisperQuantization},
+  abstract={Automated speech recognition (ASR) models have gained prominence for applications such as captioning, speech translation, and live transcription. This paper studies Whisper and two model variants: one optimized for live speech streaming and another for offline transcription. Notably, these models have been found to generate hallucinated content, reducing transcription reliability. Furthermore, larger model variants exhibit increased latency and pose challenges for deployment on resource-constrained devices. This study analyzes the similarities and differences between three Whisper models, qualitatively examining their distinct capabilities. Next, this study quantifies the impact of model quantization on latency and evaluates its viability for edge deployment. Using the open source LibriSpeech dataset, this paper evaluates the word error rate (WER) along with latency analysis of whispercpp using 3 quantization methods (INT4, INT5, INT8). Results show that quantization reduces latency by 19\% and model size by 45\%, while preserving transcription accuracy. These findings provide insights into the optimal use cases of different Whisper models and edge device deployment possibilities. All code, datasets, and implementation details are available in the project repository.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@article{nguyen2025failing,
+  title={Failing Gracefully: Mitigating Impact of Inevitable Robot Failures},
+  author={Nguyen, Duc M. and Ghani, Saad A. and Marshall, Andrew and Andreyev, Allison and Stein, Gregory J. and Xiao, Xuesu},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2026},
+  preview={failure_mitigation.jpg},
+  code={https://github.com/ducmngx/FailBench},
+  abstract={Service robots operate in household environments
+shared with humans, pets, and everyday objects, where they are
+highly susceptible to failures such as software crashes, hardware
+degradation, or unpredictable interactions. While roboticists
+strive to minimize failures, some remain inevitable, making
+it critical to mitigate their potential consequences for safe
+and reliable deployment. This paper introduces a novel safety
+formulation that evaluates both the probability of impactful
+interactions between robots and surrounding entities during
+failures, and the severity of their outcomes. By quantifying the
+impact of failures on different entities, our approach enables
+robots to make informed planning decisions that balance safety
+with task efficiency. To support systematic evaluation, we also
+present FailBench, a MuJoCo-based simulation framework
+for studying robot-environment interactions under diverse failure modes, including sensing issues and actuator malfunctions.
+Together, our safety formulation and FailBench provide a
+foundation for developing safer and more robust motion plans
+and learned policies in real-world household environments.},
+selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@misc{grasp2025,
+  title     = {Bounding Boxes as Goals: Grounding Language for Zero-Shot Robotic Sorting},
+  author    = {Allison Andreyev and Landon Eum and Nestor Tiglao and Romel Gomez},
+  year      = {2026},
+  preview  = {grasp.png},
+  website={https://allisonandreyev.github.io/grasp.github.io/},
+  code={https://github.com/allisonandreyev/grasp},
+  selected={true},
+  abstract={For robotics to be effectively integrated into household or industrial environments, machines must adapt to natural-language prompts in real time. Although Vision-Language Models (VLMs) have enabled zero-shot generalization in robot task and motion planning (TAMP), current state-of-the-art approaches often remain computationally heavyweight or require extensive training on thousands of demonstrations. We present GRASP (Grounded Reasoning and Symbolic Planning), a framework designed for open-world tabletop manipulation. Our approach leverages a pretrained VLM to translate natural-language queries into neuro-symbolic goal states, which are then grounded in the physical world via a specialized bounding-box detection pipeline. Unlike previous methods that rely on fixed color lists or hard-coded coordinates, GRASP enables robots to interpret abstract spatial concepts—such as top shelf—and execute tasks without additional fine-tuning. Experimental results demonstrate that our system achieves high instruction compliance and precision, offering a scalable solution for general-purpose robotic sorting and arrangement.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
+@misc{arxaiv2026,
+      title = {arxAIv: An AI-Generated Scientific Research Universe},
+      author = {Andreyev, Allison},
+      url = {\url{https://github.com/allisonandreyev/arxaiv.github.io}},
+      year = {2025},
+      preview = {arxaiv.png},
+      website={https://allisonandreyev.github.io/arxaiv.github.io/},
+      video={https://www.youtube.com/watch?v=EyoskUy2ZXo},
+      code={https://github.com/allisonandreyev/arxAIv},
+      abstract={arxAIv is a speculative installation of 100 AI-generated computer vision papers that parodies the accelerating fusion of generative AI and academic publishing. In an era where drafting abstracts or smoothing prose with large language models has become mundane, this work imagines a near-future endpoint — one where titles, figures, affiliations, citations, formatting, all conjured from prompts alone. From a distance, the illusion is remarkably polished. Paper titles sound technical. Layouts mimic top-tier conferences. Affiliation lines blend real institutions with subtle fakes. Diagrams appear structured and data-driven. At first glance, it’s disturbingly easy to mistake these for real submissions. But upon closer inspection, the cracks emerge. Figures, while plausible, unravel into visual noise. Affiliations contradict themselves. References cite ghosts. And though the structure is convincing, the content falters, revealing how far we still are from AI fully imitating scientific rigor.}
+  }
