@@ -145,54 +145,80 @@ article figure {
   margin-right: 0.4rem;
   margin-bottom: 0.3rem;
   text-decoration: none !important;
-  transition: background-color 0.18s ease, color 0.18s ease;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease;
 
   &.link-github {
     color: #24292e;
     border-color: #24292e;
-    &:hover { background-color: #24292e; color: #fff; }
+    &:hover {
+      background-color: #24292e;
+      color: #fff;
+    }
   }
 
   &.link-website {
     color: #0076df;
     border-color: #0076df;
-    &:hover { background-color: #0076df; color: #fff; }
+    &:hover {
+      background-color: #0076df;
+      color: #fff;
+    }
   }
 
   &.link-huggingface {
     color: #c77700;
     border-color: #ff9d00;
-    &:hover { background-color: #ff9d00; color: #fff; }
+    &:hover {
+      background-color: #ff9d00;
+      color: #fff;
+    }
   }
 
   &.link-blog {
     color: #00874a;
     border-color: #00ab37;
-    &:hover { background-color: #00ab37; color: #fff; }
+    &:hover {
+      background-color: #00ab37;
+      color: #fff;
+    }
   }
 
   &.link-news {
     color: #c0392b;
     border-color: #e74c3c;
-    &:hover { background-color: #e74c3c; color: #fff; }
+    &:hover {
+      background-color: #e74c3c;
+      color: #fff;
+    }
   }
 
   &.link-printables {
     color: #d05518;
     border-color: #fa6831;
-    &:hover { background-color: #fa6831; color: #fff; }
+    &:hover {
+      background-color: #fa6831;
+      color: #fff;
+    }
   }
 
   &.link-org {
     color: #1a7a9a;
     border-color: #2698ba;
-    &:hover { background-color: #2698ba; color: #fff; }
+    &:hover {
+      background-color: #2698ba;
+      color: #fff;
+    }
   }
 
   &.link-video {
     color: #6d28d9;
     border-color: #7c3aed;
-    &:hover { background-color: #7c3aed; color: #fff; }
+    &:hover {
+      background-color: #7c3aed;
+      color: #fff;
+    }
   }
 }
 
@@ -217,7 +243,9 @@ article figure {
   text-transform: uppercase;
   padding: 0.25rem 0.75rem;
   cursor: pointer;
-  transition: background-color 0.18s ease, color 0.18s ease;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease;
 
   &:hover,
   &.active {
@@ -254,52 +282,75 @@ html[data-theme="dark"] {
     &.link-github {
       color: #c9d1d9;
       border-color: #c9d1d9;
-      &:hover { background-color: #c9d1d9; color: #24292e; }
+      &:hover {
+        background-color: #c9d1d9;
+        color: #24292e;
+      }
     }
 
     &.link-website {
       color: #58a6ff;
       border-color: #58a6ff;
-      &:hover { background-color: #58a6ff; color: #0d1117; }
+      &:hover {
+        background-color: #58a6ff;
+        color: #0d1117;
+      }
     }
 
     &.link-huggingface {
       color: #ffb733;
       border-color: #ffb733;
-      &:hover { background-color: #ffb733; color: #1c1c1d; }
+      &:hover {
+        background-color: #ffb733;
+        color: #1c1c1d;
+      }
     }
 
     &.link-blog {
       color: #3fb950;
       border-color: #3fb950;
-      &:hover { background-color: #3fb950; color: #0d1117; }
+      &:hover {
+        background-color: #3fb950;
+        color: #0d1117;
+      }
     }
 
     &.link-news {
       color: #f87171;
       border-color: #f87171;
-      &:hover { background-color: #f87171; color: #1c1c1d; }
+      &:hover {
+        background-color: #f87171;
+        color: #1c1c1d;
+      }
     }
 
     &.link-printables {
       color: #fb8c5a;
       border-color: #fb8c5a;
-      &:hover { background-color: #fb8c5a; color: #1c1c1d; }
+      &:hover {
+        background-color: #fb8c5a;
+        color: #1c1c1d;
+      }
     }
 
     &.link-org {
       color: #56c5e8;
       border-color: #56c5e8;
-      &:hover { background-color: #56c5e8; color: #1c1c1d; }
+      &:hover {
+        background-color: #56c5e8;
+        color: #1c1c1d;
+      }
     }
 
     &.link-video {
       color: #a78bfa;
       border-color: #a78bfa;
-      &:hover { background-color: #a78bfa; color: #1c1c1d; }
+      &:hover {
+        background-color: #a78bfa;
+        color: #1c1c1d;
+      }
     }
   }
-
 }
 
 // Projects

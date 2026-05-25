@@ -6,15 +6,15 @@
 
 **Claude:** Added `.project-link-btn` CSS class with color variants to `_sass/_components.scss` and updated all project markdown files:
 
-| Button | Color | Used in |
-|---|---|---|
-| GitHub | Dark charcoal `#24292e` | SignScribe, arxAIv |
-| Website | Blue `#0076df` | arxAIv, ByteBug |
-| HuggingFace | Amber `#ff9d00` | arxAIv |
-| Blog Post | Green `#00ab37` | arxAIv |
-| News Article | Red `#e74c3c` | SignScribe |
-| Printables | Orange `#fa6831` | See3D |
-| See3D (org) | Teal `#2698ba` | See3D |
+| Button       | Color                   | Used in            |
+| ------------ | ----------------------- | ------------------ |
+| GitHub       | Dark charcoal `#24292e` | SignScribe, arxAIv |
+| Website      | Blue `#0076df`          | arxAIv, ByteBug    |
+| HuggingFace  | Amber `#ff9d00`         | arxAIv             |
+| Blog Post    | Green `#00ab37`         | arxAIv             |
+| News Article | Red `#e74c3c`           | SignScribe         |
+| Printables   | Orange `#fa6831`        | See3D              |
+| See3D (org)  | Teal `#2698ba`          | See3D              |
 
 ---
 
@@ -31,6 +31,7 @@
 **User:** Add the images pls! I also added mp4 so pls try to embed that. Also, if I want to embed a slideshow, how should I go about that?
 
 Files found in `assets/img/projects/`:
+
 - signscribe1.jpg, signscribe2.jpg, SignScribe Slide Show.pdf
 - arxaiv1.pdf
 - bytebug1.jpg, bytebug2.mp4
@@ -100,6 +101,7 @@ Files found in `assets/img/projects/`:
 **User:** Make 'video' have a different color. arxAIv should be 60% height not 100.
 
 **Claude:**
+
 - Changed `link-video` to violet (`#7c3aed` light, `#a78bfa` dark mode)
 - Set arxAIv YouTube container to `padding-top: 33.75%` (= 56.25% × 60%)
 

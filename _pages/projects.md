@@ -13,17 +13,18 @@ horizontal: false
 
 {% assign all_tags = "" | split: "" %}
 {% for project in site.projects %}
-  {% if project.tags %}
-    {% for tag in project.tags %}
-      {% unless all_tags contains tag %}
-        {% assign all_tags = all_tags | push: tag %}
-      {% endunless %}
-    {% endfor %}
-  {% endif %}
+{% if project.tags %}
+{% for tag in project.tags %}
+{% unless all_tags contains tag %}
+{% assign all_tags = all_tags | push: tag %}
+{% endunless %}
+{% endfor %}
+{% endif %}
 {% endfor %}
 {% assign all_tags = all_tags | sort %}
 
 {% if all_tags.size > 0 %}
+
 <div class="tag-filter">
   <button class="tag-filter-btn active" data-tag="all">All</button>
   {% for tag in all_tags %}
@@ -35,6 +36,7 @@ horizontal: false
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
 {% if page.horizontal %}
+
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2">
   {% for project in sorted_projects %}

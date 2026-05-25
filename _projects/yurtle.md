@@ -10,7 +10,7 @@ images:
   slider: true
 ---
 
-Yurtle is FTC 24158 Green Gang's robot for the 2024–25 *Into the Deep* season. As the software lead, I built the full control stack from the ground up.
+Yurtle is FTC 24158 Green Gang's robot for the 2024–25 _Into the Deep_ season. As the software lead, I built the full control stack from the ground up.
 
 The centerpiece of our software is a **Finite State Machine** inspired by the Roadrunner library, used for both teleop and autonomous. In teleop, the FSM encapsulates robot state to simplify and automate subsystem transitions, scoring, transferring, and intaking all trigger automatically from a single button press. In autonomous, FSM-based state tracking lets us repeat movements and build in failsafes if any path segment goes wrong.
 
