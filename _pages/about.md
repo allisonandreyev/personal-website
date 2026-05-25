@@ -23,3 +23,4 @@ I'm a high school student interetsed in in computer vision and robotics — part
 I also enjoy working on practical projects, such as building new robots or AI assistants. Reach out!
 
 allisonandreyev [at] gmail [dot] com
+ 
