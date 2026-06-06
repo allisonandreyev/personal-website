@@ -37,10 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/personal-website/cv/";
           },
-        },{id: "news-joining-jhu-apl-as-ai-ml-intern-building-ai-agents-summer-26",
-          title: 'Joining JHU APL as AI/ML intern building AI Agents Summer ‘26',
-          description: "",
-          section: "News",},{id: "news-accepted-cvpr-bps-scholarship-full-registration-1-5k-stipend",
+        },{id: "news-accepted-cvpr-bps-scholarship-full-registration-1-5k-stipend",
           title: 'Accepted CVPR BPS Scholarship (Full Registration + $1.5K Stipend)',
           description: "",
           section: "News",},{id: "news-joining-lockheed-martin-as-cybersecurity-it-intern-in-summer-26",
