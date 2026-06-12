@@ -12,6 +12,7 @@ images:
 
 <div style="margin-bottom: 1.5rem;">
   <a href="https://allisonandreyev.github.io/grasp.github.io/" class="project-link-btn link-website" role="button">Website</a>
+  <a href="https://arxiv.org/abs/2606.12910" class="project-link-btn link-arxiv" role="button">arXiv</a>
   <a href="https://github.com/allisonandreyev/grasp" class="project-link-btn link-github" role="button">GitHub</a>
 </div>
 

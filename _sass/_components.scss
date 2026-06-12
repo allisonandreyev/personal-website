@@ -220,6 +220,15 @@ article figure {
       color: #fff;
     }
   }
+
+  &.link-arxiv {
+    color: #b31b1b;
+    border-color: #b31b1b;
+    &:hover {
+      background-color: #b31b1b;
+      color: #fff;
+    }
+  }
 }
 
 // Tag filter bar
@@ -347,6 +356,15 @@ html[data-theme="dark"] {
       border-color: #a78bfa;
       &:hover {
         background-color: #a78bfa;
+        color: #1c1c1d;
+      }
+    }
+
+    &.link-arxiv {
+      color: #e05252;
+      border-color: #e05252;
+      &:hover {
+        background-color: #e05252;
         color: #1c1c1d;
       }
     }
