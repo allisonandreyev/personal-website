@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/personal-website/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/personal-website/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of some cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/personal-website/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/personal-website/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "coming soon!",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/personal-website/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "news-accepted-cvpr-bps-scholarship-full-registration-1-5k-stipend",
           title: 'Accepted CVPR BPS Scholarship (Full Registration + $1.5K Stipend)',
@@ -50,48 +50,48 @@ ninja.data = [{
           title: 'arxAIv',
           description: "A speculative AI art installation of 100+ fully AI-generated computer vision research papers examining authorship and legitimacy in academia.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/arxaiv/";
+              window.location.href = "/projects/arxaiv/";
             },},{id: "projects-bytebug",
           title: 'ByteBug',
           description: "A $1.60 circuit kit for kids K-8 to build a buzzing, light-up bug using LEDs and a mini vibration motor. 100+ kits distributed through 3 nonprofit partnerships.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/bytebug/";
+              window.location.href = "/projects/bytebug/";
             },},{id: "projects-grasp",
           title: 'GRASP',
           description: "Open-world tabletop manipulation system using neuro-symbolic reasoning to execute natural language sorting instructions for warehouse environments.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/grasp/";
+              window.location.href = "/projects/grasp/";
             },},{id: "projects-harmonic",
           title: 'Harmonic',
           description: "Robot built for &#39;Decode&#39; 25-26 competition for FIRST Tech Challenge.  3/500+ Chesapeake teams selected to compete in Governor&#39;s Cup Invitational.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/harmonic/";
+              window.location.href = "/projects/harmonic/";
             },},{id: "projects-mit-ideator",
           title: 'MIT Ideator',
           description: "A neuro-symbolic ideation machine that combines LLM seed generation, knowledge graph reasoning, and constraint-based planning to surface diverse, high-quality ideas.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/ideator/";
+              window.location.href = "/projects/ideator/";
             },},{id: "projects-signscribe",
           title: 'SignScribe',
           description: "Award-winning bionic robotic hand that translates speech to ASL finger spelling in real time using an open-source ASR kit and rendered GUI through Blender.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/signscribe/";
+              window.location.href = "/projects/signscribe/";
             },},{id: "projects-whs-cybersec",
           title: 'WHS CyberSec',
           description: "A mini club website I built to store past cybersecurity lectures and upcoming CTFs.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/whscybersec/";
+              window.location.href = "/projects/whscybersec/";
             },},{id: "projects-yurtle",
           title: 'Yurtle',
           description: "Robot built for &#39;Into the Deep&#39; 24-25 competition for FIRST Tech Challenge. Reached playoffs at Chesapeake Championship and selected for national robotics premier event.",
           section: "Projects",handler: () => {
-              window.location.href = "/personal-website/projects/yurtle/";
+              window.location.href = "/projects/yurtle/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/personal-website/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',
