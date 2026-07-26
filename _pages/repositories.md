@@ -2,38 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true
 nav_order: 4
 ---
-
-{% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
 
 {% if site.data.repositories.github_repos %}
 
@@ -45,3 +16,28 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+<script>
+  document.querySelectorAll('[data-repo-pin-check]').forEach(async (card) => {
+    const link = card.querySelector('a[href^="https://github.com/"]');
+    const fullName = link.getAttribute('href').replace('https://github.com/', '');
+    try {
+      const res = await fetch(`https://api.github.com/repos/${fullName}`);
+      if (!res.ok) {
+        card.remove();
+        return;
+      }
+      const data = await res.json();
+      if (data.private) {
+        card.remove();
+        return;
+      }
+    } catch (e) {
+      card.remove();
+      return;
+    }
+    card.querySelectorAll('img[data-src]').forEach((img) => {
+      img.src = img.dataset.src;
+    });
+  });
+</script>
