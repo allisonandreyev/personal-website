@@ -26,6 +26,7 @@ allisonandreyev [at] gmail [dot] com
 
 ## invited talks
 
+- **[2026/07]** Keynote speaker at the [National Space Club & Foundation](https://www.spaceclub.org/index.html) Luncheon.
 - **[2026/06]** In-person talk at [CPSE Lab](https://shadygrove.ece.umd.edu/) on [GRASP](/projects/grasp/) hosted by [Nestor Tiglao](https://ece.umd.edu/clark/faculty/1749/Nestor-Tiglao).
 - **[2026/04]** Demo and talk on DreamForge AI agent at [GWU InnovationFest](https://innovationfest.gwu.edu/).
 - **[2025/12]** [Podcast interview](https://marylandstemfestival.libsyn.com/website/episode-497-john-watkins-allison-computer-island-stem-academy-programming-debate-team-and-painting-cats) at Maryland STEM Festival.

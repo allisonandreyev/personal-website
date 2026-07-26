@@ -4,7 +4,7 @@ title: GRASP
 description: <strong>Open-world tabletop manipulation</strong> system using <strong>neuro-symbolic reasoning</strong> to execute <strong>natural language sorting instructions</strong> for warehouse environments.
 importance: 1
 category: projects
-tags: [Robotics, AI, Control, Computer Vision]
+tags: [Robotics, AI, Computer Vision]
 # img: assets/img/projects/grasp7.png
 images:
   slider: true
@@ -20,19 +20,19 @@ images:
   <button onclick="document.getElementById('graspSlider').swiper.slidePrev()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8249;</button>
   <swiper-container id="graspSlider" keyboard="true" pagination="true" pagination-clickable="true" loop="true" centered-slides="true" style="flex: 1; min-width: 0;">
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/grasp1.jpeg" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/grasp1.jpeg" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/grasp2.jpeg" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/grasp2.jpeg" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/grasp3.jpeg" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/grasp3.jpeg" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/grasp4.jpeg" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/grasp4.jpeg" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/grasp5.jpeg" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/grasp5.jpeg" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
   </swiper-container>
   <button onclick="document.getElementById('graspSlider').swiper.slideNext()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8250;</button>

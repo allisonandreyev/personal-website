@@ -15,7 +15,7 @@ tags: [Robotics, Outreach]
 <div class="row mt-3 mb-3 justify-content-center">
   <div class="col-sm-4">
     <div style="height: 280px; overflow: hidden; border-radius: 0.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.16);">
-      <img src="{{ "assets/img/projects/bytebug1.jpg" | relative_url }}" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="{{ "assets/img/projects/bytebug1.jpg" | relative_url }}" style="width: 100%; height: 100%; object-fit: cover;" data-zoomable>
     </div>
   </div>
   <div class="col-sm-4">

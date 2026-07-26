@@ -22,10 +22,10 @@ tags: [AI, Web Dev]
 
 <div class="row mt-3 mb-3">
   <div class="col-sm-6">
-    {% include figure.liquid path="assets/img/projects/Ideator1.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/Ideator1.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
   <div class="col-sm-6">
-    {% include figure.liquid path="assets/img/projects/Ideator2.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/Ideator2.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
 </div>
 

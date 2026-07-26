@@ -4,7 +4,7 @@ title: Yurtle
 description: Robot built for 'Into the Deep' 24-25 competition for FIRST Tech Challenge. Reached playoffs at <strong>Chesapeake Championship</strong> and selected for <strong>national robotics premier event.</strong>
 importance: 4
 category: projects
-tags: [Robotics, Control]
+tags: [Robotics]
 # img: assets/img/projects/gg11.png
 images:
   slider: true
@@ -16,7 +16,7 @@ The centerpiece of our software is a **Finite State Machine** inspired by the Ro
 
 <div class="row mt-3 mb-3 justify-content-center">
   <div class="col-sm-7">
-    {% include figure.liquid path="assets/img/projects/gg8.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/gg8.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
 </div>
 
@@ -24,7 +24,7 @@ To handle a 5-subsystem transfer sequence, I implemented a **Java Commands frame
 
 <div class="row mt-3 mb-3 justify-content-center">
   <div class="col-sm-4">
-    {% include figure.liquid path="assets/img/projects/gg9.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/gg9.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
 </div>
 

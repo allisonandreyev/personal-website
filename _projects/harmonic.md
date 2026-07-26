@@ -4,7 +4,7 @@ title: Harmonic
 description: Robot built for 'Decode' 25-26 competition for FIRST Tech Challenge. <strong> 3/500+ Chesapeake teams</strong> selected to compete in <strong>Governor's Cup Invitational.</strong>
 importance: 5
 category: projects
-tags: [Robotics, Control]
+tags: [Robotics]
 images:
   slider: true
 # img: assets/img/projects/eq11.png
@@ -14,22 +14,22 @@ images:
   <button onclick="document.getElementById('harmonicSlider').swiper.slidePrev()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8249;</button>
   <swiper-container id="harmonicSlider" keyboard="true" pagination="true" pagination-clickable="true" loop="true" centered-slides="true" style="flex: 1; min-width: 0;">
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq4.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq4.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq6.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq6.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq7.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq7.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq8.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq8.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq9.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq9.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
     <swiper-slide>
-      {% include figure.liquid path="assets/img/projects/eq10.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/eq10.png" class="img-fluid rounded z-depth-1" zoomable="true" %}
     </swiper-slide>
   </swiper-container>
   <button onclick="document.getElementById('harmonicSlider').swiper.slideNext()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8250;</button>

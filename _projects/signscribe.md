@@ -4,7 +4,7 @@ title: SignScribe
 description: <strong>Award-winning</strong> bionic robotic hand that <strong>translates speech to ASL finger spelling in real time</strong> using an open-source ASR kit and rendered GUI through Blender.
 importance: 2
 category: research
-tags: [Robotics, Control, Outreach]
+tags: [Robotics, Outreach, Speech Recognition]
 # img: assets/img/projects/signscribe.png
 ---
 
@@ -24,13 +24,13 @@ SignScribe is a bionic-like robotic hand that translates spoken English into Ame
 
 <div class="row mt-4 mb-3 justify-content-center">
   <div class="col-sm-8">
-    {% include figure.liquid path="assets/img/projects/signscribe1.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/signscribe1.jpg" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
 </div>
 
 <div class="row mb-4 justify-content-center">
   <div class="col-sm-8">
-    {% include figure.liquid path="assets/img/projects/signscribe2.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/signscribe2.jpg" class="img-fluid rounded z-depth-1" zoomable="true" %}
   </div>
 </div>
 
