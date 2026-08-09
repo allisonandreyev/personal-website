@@ -14,7 +14,7 @@ tags: [Robotics, AI]
   </div>
 </div>
 
-*Completed August 2026 and presented at the NASA Goddard Engineering and Technology Directorate branch presentation and the National Space Club poster session.*
+_Completed August 2026 and presented at the NASA Goddard Engineering and Technology Directorate branch presentation and the National Space Club poster session._
 
 This is a NASA Goddard Space Flight Center internship project (Engineering and Technology Directorate, Code 525 Space Club), now formalized as **CORTEx** (Cross-sensor Onboard Reflex & Terrain Exploration), building an RL-driven autonomous navigation system for the TurtleBot 4 that can handle diverse, unstructured terrain. The team split into three subteams: RL agent implementation, simulation development, and environment/sensing; I worked on the RL agent and owned the training simulator, and later designed the terrain-classification system.
 
