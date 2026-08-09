@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -37,14 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-accepted-cvpr-bps-scholarship-full-registration-1-5k-stipend",
-          title: 'Accepted CVPR BPS Scholarship (Full Registration + $1.5K Stipend)',
-          description: "",
-          section: "News",},{id: "news-joining-lockheed-martin-as-cybersecurity-it-intern-in-summer-26",
-          title: 'Joining Lockheed Martin as Cybersecurity/IT Intern in Summer ‘26',
-          description: "",
-          section: "News",},{id: "news-joining-nasa-gsfc-developing-simulation-environments-for-mobile-robots-summer-26",
+        },{id: "news-joining-nasa-gsfc-developing-simulation-environments-for-mobile-robots-summer-26",
           title: 'Joining NASA GSFC developing simulation environments for mobile robots Summer ‘26',
+          description: "",
+          section: "News",},{id: "news-keynote-speaker-at-the-national-space-club-amp-amp-foundation-luncheon",
+          title: 'Keynote speaker at the National Space Club &amp;amp;amp; Foundation Luncheon',
+          description: "",
+          section: "News",},{id: "news-attending-yc-ai-startup-school-2026",
+          title: 'Attending YC AI Startup School 2026',
           description: "",
           section: "News",},{id: "projects-arxaiv",
           title: 'arxAIv',
@@ -56,6 +56,16 @@ ninja.data = [{
           description: "A $1.60 circuit kit for kids K-8 to build a buzzing, light-up bug using LEDs and a mini vibration motor. 100+ kits distributed through 3 nonprofit partnerships.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bytebug/";
+            },},{id: "projects-coursecat",
+          title: 'CourseCat',
+          description: "A Canvas LMS AI companion app giving students a smarter, unified dashboard for assignments, grades, and schedule in one place.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/coursecat/";
+            },},{id: "projects-earudite",
+          title: 'Earudite',
+          description: "A crowdsourcing platform that collects speech training data from Quiz Bowl questions to improve automatic speech recognition systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/earudite/";
             },},{id: "projects-grasp",
           title: 'GRASP',
           description: "Open-world tabletop manipulation system using neuro-symbolic reasoning to execute natural language sorting instructions for warehouse environments.",
@@ -71,6 +81,11 @@ ninja.data = [{
           description: "A neuro-symbolic ideation machine that combines LLM seed generation, knowledge graph reasoning, and constraint-based planning to surface diverse, high-quality ideas.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ideator/";
+            },},{id: "projects-nasa-rl-sim",
+          title: 'NASA RL Sim',
+          description: "Reinforcement learning simulator for NASA Goddard&#39;s CORTEx TurtleBot 4 terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 90.2% arrival rate on a Raspberry Pi 4 with a provably-safe control stack and an 88 KB camera-free terrain classifier.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nasarl/";
             },},{id: "projects-signscribe",
           title: 'SignScribe',
           description: "Award-winning bionic robotic hand that translates speech to ASL finger spelling in real time using an open-source ASR kit and rendered GUI through Blender.",
